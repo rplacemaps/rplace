@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>rPlace map</title>
+    <title>supertf rPlace</title>
     <style>
         .container {
             position: relative;
@@ -30,8 +30,8 @@
         const X_OFFSET=400
         const Y_OFFSET=100
 
-        const X_IN_PLACE=0
-        const Y_IN_PLACE=0
+        const X_IN_PLACE=1895
+        const Y_IN_PLACE=3
 
         function getMousePos(canvas, evt) {
             const rect = canvas.getBoundingClientRect();
@@ -74,7 +74,7 @@
             bg.drawImage(img, 0, 0, img.width, img.height, 0, Y_OFFSET, w, h)
             drawGrid(0, Y_OFFSET, w, h + Y_OFFSET, bg)
         };
-        img.src = "winston.jpg";
+        img.src = "chad6.jpg";
 
         function drawText(text, x, y){
             fg.font = '80px Sans-serif';
